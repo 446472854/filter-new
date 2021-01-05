@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*  多个filter属性用空格分隔 */
+        
+        .one {
+            display: block;
+            margin: 0 auto;
+            width: 400px;
+            height: auto;
+            /* 滤镜属性
+            * grayscale  灰度   0 是正常的灰度  1 是全灰
+             */
+            filter: grayscale(1);
+        }
+        
+        .two {
+            display: block;
+            margin: 0 auto;
+            width: 400px;
+            height: auto;
+            /* 滤镜属性
+            * brightness 亮度  默认1    0是亮度 0  全黑 >1  是曝光的程度
+             */
+            filter: brightness(1);
+        }
+        
+        .three {
+            display: block;
+            margin: 0 auto;
+            width: 400px;
+            height: auto;
+            /* 滤镜属性
+            * sepia 褐色 1是百分之一百褐色   正常是0     >1 是褐色的程度
+             */
+            filter: sepia(1);
+        }
+        
+        .four {
+            display: block;
+            margin: 0 auto;
+            width: 400px;
+            height: auto;
+            /* 滤镜属性
+            *  blur   模糊度  单位是px
+             */
+            filter: blur(2px);
+        }
+        
+        .five {
+            display: block;
+            margin: 0 auto;
+            width: 400px;
+            height: auto;
+            /* 滤镜属性
+            *  contrast 对比度  
+             */
+            filter: contrast(1);
+        }
+        
+        .six {
+            display: block;
+            margin: 0 auto;
+            width: 400px;
+            height: auto;
+            /* 滤镜属性
+            *  saturate 饱和度  默认值是1   
+             */
+            filter: saturate(1.1);
+        }
+        
+        .seven {
+            display: block;
+            margin: 0 auto;
+            width: 400px;
+            height: auto;
+            /* 滤镜属性
+            *  invert  反向    胶片底色效果  
+             */
+            filter: invert(1.1);
+        }
+        
+        .eight {
+            display: block;
+            margin: 0 auto;
+            width: 400px;
+            height: auto;
+            /* 滤镜属性
+            *  hue-rotate(deg)   色相旋转   0deg - 360deg    
+             */
+            filter: hue-rotate(0deg);
+        }
+    </style>
+</head>
+
+<body>
+    <img src="images/ym1.jpg" alt="杨幂" class="one">
+    <img src="images/ym2.jpg" alt="" class="two">
+    <img src="images/ym3.jpg" alt="" class="three">
+    <img src="images/ym3.jpg" alt="" class="four">
+    <img src="images/ym3.jpg" alt="" class="five">
+    <img src="images/ym3.jpg" alt="" class="six">
+    <img src="images/ym3.jpg" alt="" class="seven">
+    <img src="images/ym3.jpg" alt="" class="eight">
+
+
+</body>
+
+</html>
